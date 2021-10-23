@@ -50,3 +50,48 @@ const sumar = ( num1, num2,num3,num4) =>{
 let arr = [3,6,4,1]
 
 sumar(...arr)
+
+
+capitulo 15 
+
+APIs (interface programacion de aplicacion) dentro del lenguaje
+
+///objeto date
+
+
+
+///localstorage y sessionstorage
+
+son APIs que nos permite guardar informacion
+
+dierencias
+
+local se almacena en todo mientras session solo en pestaña , es decir que si se cierra se borra
+
+
+setItem: asigna variable y su valor = key y valor
+
+getItem: obtiene el valor de dicha variable o key
+
+removeItem: elimina valor de dicha variable o key
+
+clear: limpia todooooo
+
+drag & drop
+
+eventos del objeto
+-dragenter
+-drag
+-dragend
+
+eventos de zona
+-dragenter
+-dragover
+-drop
+-dragleave
+
+propiedad dataTransfer
+-getData()
+-setData()
+
+

@@ -1,0 +1,56 @@
+body{
+    color: #222;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.rectangulo{
+    padding: 100px;
+    background: #ccc;
+    margin: 50px;
+    outline: 6px dashed #aaa;
+}
+
+.circulo{
+    border-radius: 50%;
+    padding: 40px;
+    background: #f00;
+    display: inline-block;
+}
+
+
+.texturas {
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    user-select: none; /*paraque no seleccione el texto en medio de los cuadrados de textura*/
+}
+
+.texturas div{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 6px;
+    user-select: all;
+}
+
+.texturas div:active {
+    opacity: 0.55;
+}
+
+.textura1{
+    background: url("textura1.png");
+}
+.textura2{
+    background: url("textura2.png");
+}
+.textura3{
+    background: url("textura3.png");
+}
+
+.zona{
+    margin: 10px;
+    background: #ddd;
+    height: 100px;
+}
